@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "title": "Composition florale",
+      "href": "/services",
+      "picture": {
+        "src": "/images/wedding_flowers.jpg",
+        "alt": "bouquet de mariée",
+        "width": 2592,
+        "height": 3888
+      }
+    },
+    {
+      "title": "Atelier d'Art Floral",
+      "href": "/services#coursFloral",
+      "picture": {
+        "src": "/images/cours.jpg",
+        "alt": "composition d'un bouquet",
+        "width": 3456,
+        "height": 4608
+      }
+    },
+    {
+      "title": "Conception de jardin",
+      "href": "/services#jardin",
+      "picture": {
+        "src": "/images/garden_4_mobile.jpg",
+        "alt": "jardin",
+        "width": 1221,
+        "height": 942
+      }
+    }
+  ]
+}
