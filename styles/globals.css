@@ -19,7 +19,7 @@ h1 {
   line-height: 200px;
   letter-spacing: 10px;
   z-index: 1;
-  color: #dcdce5;
+  color: #dcdce5 !important;
   font-weight: 700 !important;
 }
 
@@ -479,17 +479,14 @@ footer button {
 }
 
 #contact .container {
-  margin-bottom: 200px;
+  margin-bottom: 250px;
 }
 
-#contactForm {
-  background-color: #f0f0f5;
-}
-
-#contactForm .container,
 #contactDetails .container {
   width: 100%;
   padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
   margin-bottom: 80px;
   display: flex;
   flex-direction: row;
@@ -498,32 +495,9 @@ footer button {
   align-content: center;
 }
 
-#contactForm form {
-  max-width: 500px;
-}
-
-#contactForm a {
-  color: #850f9b;
-}
-
-.contact-img {
-  width: 40%;
-}
-
-textarea {
-  resize: none !important;
-}
-
-.form-control,
-.form-select {
-  border: none !important;
-  border-radius: 0px !important;
-}
-
 .details-img img {
-  width: 50%;
+  width: 80%;
   border-radius: 50%;
-  margin-left: 20%;
 }
 
 .contact-list {
@@ -557,20 +531,21 @@ textarea {
     top: -100px;
     right: 135px;
   }
-  #contactForm .container {
-    width: 70%;
-    padding-left: 10%;
-    padding-top: 100px;
-  }
-
-  .contact-img,
-  .details-img {
-    display: none;
+  #contact .container {
+    margin-bottom: 200px;
   }
   #contactDetails .container {
-    padding-top: 0px;
-    padding-left: 10%;
-    padding-right: 10%;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .contact-details {
+    margin-left: 3%;
+  }
+  .details-img img {
+    margin-left: 0%;
   }
 }
 
@@ -580,22 +555,14 @@ textarea {
   }
 
   #contact .container {
-    margin-bottom: 80px;
-  }
-  #contactForm .container {
-    width: 100%;
-    padding-top: 30px;
+    margin-bottom: 0px;
   }
   #contactDetails .container {
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 50px;
-  }
-  .details-img {
-    display: block;
+    padding-bottom: 0px;
+    padding-left: 4%;
+    padding-right: 4%;
   }
   .details-img img {
-    margin-left: 0%;
     margin-top: 20px;
     width: 70%;
   }

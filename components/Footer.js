@@ -19,8 +19,8 @@ export default function Footer() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/admin">
-                Administration
+              <Link className="nav-link" href="/services">
+                Services
               </Link>
             </li>
 

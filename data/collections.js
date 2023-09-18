@@ -1,5 +1,6 @@
-const collection = [
+const collections = [
   {
+    id: "0",
     image: "bouquet_champetre.jpg",
     description: "bouquet champêtre",
     titre: "Bouquet champêtre",
@@ -7,6 +8,7 @@ const collection = [
     height: "1080",
   },
   {
+    id: "1",
     image: "wedding_flowers.jpg",
     description: "bouquet de la mariée",
     titre: "Bouquet de la mariée",
@@ -14,6 +16,7 @@ const collection = [
     height: "1361",
   },
   {
+    id: "2",
     image: "composition_mortuaire_2.jpg",
     description: "gerbe funéraire",
     titre: "Composition mortuaire",
@@ -21,6 +24,7 @@ const collection = [
     height: "1080",
   },
   {
+    id: "3",
     image: "garden_2.jpg",
     description: "jardinière",
     titre: "Jardinière",
@@ -28,6 +32,7 @@ const collection = [
     height: "768",
   },
   {
+    id: "4",
     image: "ikebana.jpg",
     description: "composition ikebana",
     titre: "Ikebana",
@@ -35,6 +40,7 @@ const collection = [
     height: "768",
   },
   {
+    id: "5",
     image: "composition_mortuaire.jpg",
     description: "gerbe funéraire",
     titre: "Composition mortuaire",
@@ -42,6 +48,7 @@ const collection = [
     height: "1080",
   },
   {
+    id: "6",
     image: "wedding_5.jpg",
     description: "décoration de mariage",
     titre: "Décoration de mariage",
@@ -49,6 +56,7 @@ const collection = [
     height: "840",
   },
   {
+    id: "7",
     image: "coeur.jpg",
     description: "composition florale en forme de coeur",
     titre: "Composition mortuaire",
@@ -56,6 +64,7 @@ const collection = [
     height: "1080",
   },
   {
+    id: "8",
     image: "mur_vegetal.jpg",
     description: "mur végétal",
     titre: "Mur végétal",
@@ -64,6 +73,7 @@ const collection = [
   },
 
   {
+    id: "9",
     image: "deco_florale.jpg",
     description: "Décoration florale",
     titre: "Décoration florale",
@@ -71,6 +81,7 @@ const collection = [
     height: "514",
   },
   {
+    id: "10",
     image: "mur_vegetal_2.jpg",
     description: "mur végétal",
     titre: "Mur végétal",
@@ -78,6 +89,7 @@ const collection = [
     height: "768",
   },
   {
+    id: "11",
     image: "garden.jpg",
     description: "jardin",
     titre: "Decoration de jardin",
@@ -85,6 +97,7 @@ const collection = [
     height: "768",
   },
   {
+    id: "12",
     image: "allee.jpg",
     description: "allée",
     titre: "Allée de jardin",
@@ -92,6 +105,7 @@ const collection = [
     height: "768",
   },
   {
+    id: "13",
     image: "bordure.jpg",
     description: "bordure de jardin en bois",
     titre: "Bordure de jardin",
@@ -99,6 +113,7 @@ const collection = [
     height: "768",
   },
   {
+    id: "14",
     image: "decoration.jpg",
     description: "décorations végétales",
     titre: "Décorations végétales",
@@ -106,13 +121,15 @@ const collection = [
     height: "901",
   },
   {
-    image: "culture_pédagogique.jpg",
+    id: "15",
+    image: "culture_pedagogique.jpg",
     description: "jardinière",
     titre: "Culture pédagogique",
     width: "905",
     height: "903",
   },
   {
+    id: "16",
     image: "coeur_2.jpg",
     description: "composition funéraire en forme de coeur",
     titre: "Composition mortuaire",
@@ -120,6 +137,7 @@ const collection = [
     height: "1080",
   },
   {
+    id: "17",
     image: "allee_2.jpg",
     description: "allée dallée",
     titre: "Allée de jardin",
@@ -128,4 +146,4 @@ const collection = [
   },
 ];
 
-export { collection };
+export { collections };
