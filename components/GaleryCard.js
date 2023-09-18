@@ -6,7 +6,7 @@ export default function GaleryCard({ collection, setIdImage}) {
     <>
       {/* Click on card to trigger modal */}
       <div
-        onClick={(e) => { setIdImage(collection.id - 1)
+        onClick={(e) => { setIdImage(collection.id)
         }}
         className="services-card mb-5"
         data-aos="fade-up"

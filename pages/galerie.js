@@ -6,7 +6,7 @@ import { collections } from "./../data/collections";
 export default function Galerie() {
   const [idImage, setIdImage] = useState("0");
   const modalItem = collections[idImage];
- 
+
   return (
     <>
       <section id="galerie" className="mt-5">
@@ -34,7 +34,7 @@ export default function Galerie() {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h4 className="modal-title fs-5" id="modalLabel">
-                      {collections.titre}
+                      {modalItem.titre}
                     </h4>
                     <button
                       type="button"
@@ -44,7 +44,13 @@ export default function Galerie() {
                     ></button>
                   </div>
                   <div className="modal-body">
-                   
+                    <Image
+                      className="modal-img"
+                      src={`/images/galery/${modalItem.image}`}
+                      alt={modalItem.description}
+                      width={modalItem.width}
+                      height={modalItem.height}
+                    />
                   </div>
                 </div>
               </div>
