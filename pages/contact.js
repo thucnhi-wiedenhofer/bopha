@@ -20,6 +20,7 @@ export default function Contact() {
                 src={contact}
                 alt="background foral"
                 className="img-fluid"
+                priority={true}
               />
             </div>
             <div className="overlay"></div>

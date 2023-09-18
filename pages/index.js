@@ -47,6 +47,7 @@ export default function Home(props) {
                   src={carousel1}
                   className="img-fluid"
                   alt="composition florale pour un mariage"
+                  priority={true}
                 />
 
                 <div className="overlay"></div>

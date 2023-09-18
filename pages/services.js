@@ -16,6 +16,7 @@ export default function Services() {
                 src={wedding}
                 alt="composition florale pour mariage"
                 className="img-fluid"
+                priority={true}
               />
             </div>
           </div>
