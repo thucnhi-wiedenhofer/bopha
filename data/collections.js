@@ -43,7 +43,7 @@ const collections = [
     id: "5",
     image: "composition_mortuaire.jpg",
     description: "gerbe funéraire",
-    titre: "Composition mortuaire",
+    titre: "Gerbe funéraire",
     width: "1080",
     height: "1080",
   },

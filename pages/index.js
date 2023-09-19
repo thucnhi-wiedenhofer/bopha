@@ -118,19 +118,20 @@ export default function Home(props) {
               Bienvenue
             </h1>
             <h2 className={styles.subtitle}>
-              Rencontrez Bopha,<br/> Désigner Floral
+              Rencontrez Bopha,
+              <br /> Désigner Floral
             </h2>
 
             <figure className="text-center mb-5">
               <blockquote className="blockquote">
                 <p>
                   “Passionnée par les fleurs et riche d'une expérience depuis
-                  plus de trente ans dans l'Art Floral, j'aime créer des
-                  compositions uniques et sur mesure pour chaque client. Que ce
-                  soit pour un mariage, un baptême, une soirée de gala ou tout
-                  autre événement, je met ma créativité et mon savoir-faire à
-                  votre disposition pour rendre votre jour spécial encore plus
-                  beau.”
+                  plus de trente ans dans l'Art Floral en France et au Cambodge,
+                  j'aime créer des compositions uniques et sur mesure pour
+                  chaque client. Que ce soit pour un mariage, un baptême, une
+                  soirée de gala ou tout autre événement, je met ma créativité
+                  et mon savoir-faire à votre disposition pour rendre votre jour
+                  spécial encore plus beau.”
                 </p>
               </blockquote>
               <figcaption className="blockquote-footer mt-3">Bopha</figcaption>
