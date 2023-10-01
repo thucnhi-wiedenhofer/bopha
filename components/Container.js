@@ -28,7 +28,9 @@ export default function Container({ children }) {
           property="og:description"
           content="Bopha Serre, fleuriste depuis plus de trente ans, vous propose des créations florales sur mesure pour toutes les occasions et évènements. Passionnée par l'art floral, Bopha donne des cours et anime des ateliers sur Paris également."
         />
-        <title>Bopha, Décoratrice Florale - Création florale sur mesure</title>
+        <title>
+          Bopha Serre, Décoratrice Florale - Création florale sur mesure
+        </title>
       </Head>
       <Navbar />
       <main>{children}</main>
